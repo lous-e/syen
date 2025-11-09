@@ -1,0 +1,9 @@
+# Ignore collected data and model artifacts
+imu_digits/
+4_seconds/
+*.joblib
+__pycache__/
+*.pyc
+.env
+secrets.h
+.DS_Store
