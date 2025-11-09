@@ -34,6 +34,3 @@ Notes and suggestions
 - CSV format: `t_ms,ax,ay,az,gx,gy,gz,state,label` — `state` marks writing vs rest.
 - If your CSVs contain formatting issues (e.g. `-` characters as placeholders), use `pandas.to_numeric(..., errors='coerce')` and `.fillna()` before numeric conversion.
 - This repository is intentionally lightweight and designed for experimentation. Consider adding unit tests for feature extraction and a small example dataset to make training reproducible.
-
-License
-- Add your preferred license file if you plan to share this project.
